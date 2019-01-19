@@ -11,8 +11,9 @@ body {
     width: 100%;
     padding: 20px;
     margin-bottom: 30px;
-    height: 100px;
-    clear: both;
+    height: 80px;
+    border-bottom: solid 1px #cccccc;
+    position: fixed;
 }
 
 .headerContainer {
@@ -26,8 +27,9 @@ body {
     color: #ffffff;
     float: left;
     width: fit-content;
-    padding: 25px;
+    padding: 20px;
     position: fixed;
+    margin: 0px;
 }
 
 ul {
@@ -45,5 +47,30 @@ ul {
     width: 960px;
     margin-left: 50px;
     background: #ffffff;
-    border: solid 1px;
+    border: solid 1px #dddddd;
+    padding: 10px;
+    overflow: auto;
+}
+
+.contentTitle {
+    border-bottom: solid 2px #cccccc;
+}
+
+#headshot {
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+    background: #666666;
+    border-top: solid 3px #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 10px;
 }
