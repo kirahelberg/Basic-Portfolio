@@ -16,7 +16,6 @@ body {
     padding-top: 20px;
     margin-bottom: 30px;
     height: fit-content;
-    border-bottom: solid 1px #cccccc;
     width: 100%;
 }
 
@@ -70,11 +69,81 @@ ul {
 
 /* IMAGE */
 #headshot {
-    width: 20%;
+    object-fit: cover;
+    height: 320px;
+    width: 250px;
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
-    border: double rgb(134, 132, 130);
+    border: 10px double #d1baba;
+}
+
+
+/* NAV MENU PSEUDO-CLASSES */
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #d1baba;
+  }
+
+  a:visited {
+    color: #fcc0d7;
+  }
+
+  a:hover {
+    color: #81c4cf;
+  }
+
+  /* Why does the style not stay active? */
+  a:active {
+    color: white;
+    text-decoration: underline;
+  }
+
+
+/* CONTACT PAGE */
+#name {
+    
+}
+
+
+/* PORTFOLIO PAGE */
+.project-container {
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+}
+
+.image {
+    display: block;
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 10px double #d1baba;
+}
+
+.overlay {
+    position: absolute;
+    top: 160px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    opacity: 0.5;
+    background: #ffffff;
+    color: black;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 /* FOOTER */
